@@ -99,5 +99,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable hemid.service
 sudo systemctl start hemid.service
 ```
-
+### check logs
+```
+sudo journalctl -u hemid.service -f -n 50
+```
 Join Disussion : [Crypto Console Telegram](https://t.me/cryptoconsol)
