@@ -66,6 +66,11 @@ cat ~/popm-address.json
 
 Save it safe.
 
+### Public Key for faucet
+```
+cat ~/popm-address.json | jq -r '.pubkey_hash'
+```
+
 **Request faucet in discord** : [Hemi Discord](https://discord.gg/hemixyz)
 
 ### create a servive file
