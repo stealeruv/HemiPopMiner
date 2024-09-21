@@ -57,7 +57,7 @@ cd heminetwork_v0.4.3_linux_arm64
 
 ### Wallet create
 ```
-./keygen -secp256k1 -json -net=testnet > ~/popm-address.json
+./keygen -secp256k1 -json -net="testnet" > ~/popm-address.json
 ```
 ### View Private Key and address
 ```
