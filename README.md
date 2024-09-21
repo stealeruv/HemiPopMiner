@@ -1,6 +1,31 @@
 # HemiPopMiner
 Pop Btc Tx miner
 
+### Project Intro
+Hemi is a modular blockchain built for superior scaling, security and interoperability.
+One Network, Powered by  Bitcoin and  Ethereum.
+
+Docs : [hemiDocs](https://docs.hemi.xyz/) | X : [x.com](https://x.com/hemi_xyz) | Site : [Hemi](https://hemi.xyz/)
+
+**Bitcoin Superfinality**
+
+Hemi's Proof-of-Proof (PoP) consensus mechanism ensures transactions surpass Bitcoin's level of security in just a few hours.
+
+### Testnet 
+
+📣Hemi Incentived Testnet (Backed by Binance Labs)
+
+- Join and complete testnet task
+- Start earning hemi miles 
+
+Hemi Miles are a metric designed to recognize and reward early participants in the Hemi ecosystem.
+
+Task link: https://points.absinthe.network/hemi/start
+
+Paste Ref code: 284f5931
+
+Complete Ongoing task and climb up the leaderboard 🚀
+
 ## System Requirements
 
 | **Hardware** | **Minimum Requirement** |
