@@ -10,7 +10,8 @@ Docs : [hemiDocs](https://docs.hemi.xyz/) | X : [x.com](https://x.com/hemi_xyz) 
 **Bitcoin Superfinality**
 
 Hemi's Proof-of-Proof (PoP) consensus mechanism ensures transactions surpass Bitcoin's level of security in just a few hours.
---
+__________________________________________________________________________________________________________________________________________
+
 ### Testnet 
 
 📣Hemi Incentived Testnet (Backed by Binance Labs)
@@ -25,7 +26,7 @@ Task link: https://points.absinthe.network/hemi/start
 Paste Ref code: 284f5931
 
 Complete Ongoing task and climb up the leaderboard 🚀
---
+__________________________________________________________________________________________________________________________________________
 ## System Requirements
 
 | **Hardware** | **Minimum Requirement** |
