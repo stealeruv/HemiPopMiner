@@ -25,6 +25,10 @@ Task link: https://points.absinthe.network/hemi/start
 
 Paste Ref code: 284f5931
 
+Sepolia Eth Faucet : https://www.alchemy.com/faucets/ethereum-sepolia | https://www.infura.io/faucet/sepolia
+
+Stable coins Faucet : https://staging.aave.com/faucet/
+
 Complete Ongoing task and climb up the leaderboard 🚀
 __________________________________________________________________________________________________________________________________________
 ## System Requirements
