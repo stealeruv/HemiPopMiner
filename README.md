@@ -1,5 +1,5 @@
-# HemiPopMiner
-Pop Btc Tx miner
+# HemiPoPMiner
+PoP Btc Tx miner
 
 ### Project Intro
 Hemi is a modular blockchain built for superior scaling, security and interoperability.
@@ -23,7 +23,7 @@ Hemi Miles are a metric designed to recognize and reward early participants in t
 
 Task link: https://points.absinthe.network/hemi/start
 
-Paste Ref code: 284f5931
+Paste Ref code: **284f5931**
 
 Sepolia Eth Faucet : https://www.alchemy.com/faucets/ethereum-sepolia | https://www.infura.io/faucet/sepolia
 
