@@ -54,37 +54,17 @@ sudo apt-get update
 sudo apt-get install -y jq
 ```
 
-### Check the architecture of your VPS using the following command:
-```
-uname -m
-```
-This will return the architecture type, such as:
 
-**x86_64** for 64-bit Intel/AMD systems
-
-**arm64** for 64-bit ARM systems
-
-
-x86_64 : This would indicate that your VPS is running on x86_64 architecture. So chose **x86_64** cmd.
-
-### Download the Binary for Your Architecture
-Download the appropriate version based on your system architecture.
+### Download the Binary
 
 For x86_64 Architecture:
 
 ```
-wget --quiet --show-progress https://github.com/hemilabs/heminetwork/releases/download/v0.4.5/heminetwork_v0.4.5_linux_amd64.tar.gz -O heminetwork_v0.4.5_linux_amd64.tar.gz
-tar -xzf heminetwork_v0.4.5_linux_amd64.tar.gz
-cd heminetwork_v0.4.5_linux_amd64
+wget https://github.com/hemilabs/heminetwork/releases/download/v0.5.0/heminetwork_v0.5.0_linux_amd64.tar.gz
 ```
-For arm64 Architecture:
-
 ```
-wget --quiet --show-progress https://github.com/hemilabs/heminetwork/releases/download/v0.4.5/heminetwork_v0.4.5_linux_arm64.tar.gz -O heminetwork_v0.4.5_linux_arm64.tar.gz
-tar -xzf heminetwork_v0.4.5_linux_arm64.tar.gz
-cd heminetwork_v0.4.5_linux_arm64
+tar -xzvf heminetwork_v0.5.0_linux_amd64.tar.gz
 ```
-
 ### Wallet create
 ```
 ./keygen -secp256k1 -json -net="testnet" > ~/popm-address.json
@@ -144,8 +124,8 @@ sudo systemctl stop hemid.service
 ### Remove old files
 
 ```
-rm -rf heminetwork_v0.4.3_linux_arm64
-rm -rf heminetwork_v0.4.3_linux_arm64.tar.gz
+rm -rf heminetwork_v0.4.5-linux_arm64
+rm -rf heminetwork_v0.4.5_linux_arm64.tar.gz
 ```
 
 ### Update and Install jq
@@ -167,22 +147,14 @@ This will return the architecture type, such as:
 
 x86_64 : This would indicate that your VPS is running on x86_64 architecture. So chose **x86_64** cmd.
 
-### Download the Binary for Your Architecture
-Download the appropriate version based on your system architecture.
-
-For x86_64 Architecture:
+### Download the Binary
 
 ```
-wget --quiet --show-progress https://github.com/hemilabs/heminetwork/releases/download/v0.4.5/heminetwork_v0.4.5_linux_amd64.tar.gz -O heminetwork_v0.4.5_linux_amd64.tar.gz
-tar -xzf heminetwork_v0.4.5_linux_amd64.tar.gz
-cd heminetwork_v0.4.5_linux_amd64
+wget https://github.com/hemilabs/heminetwork/releases/download/v0.5.0/heminetwork_v0.5.0_linux_amd64.tar.gz
 ```
-For arm64 Architecture:
 
 ```
-wget --quiet --show-progress https://github.com/hemilabs/heminetwork/releases/download/v0.4.5/heminetwork_v0.4.5_linux_arm64.tar.gz -O heminetwork_v0.4.5_linux_arm64.tar.gz
-tar -xzf heminetwork_v0.4.5_linux_arm64.tar.gz
-cd heminetwork_v0.4.5_linux_arm64
+tar -xzvf heminetwork_v0.5.0_linux_amd64.tar.gz
 ```
 
 ### Update service file
@@ -195,8 +167,8 @@ Description=Hemi testnet pop tx Service
 After=network.target
 
 [Service]
-WorkingDirectory=/root/heminetwork_v0.4.5_linux_amd64
-ExecStart=/root/heminetwork_v0.4.5_linux_amd64/popmd
+WorkingDirectory=/root/heminetwork_v0.5.0_linux_amd64
+ExecStart=/root/heminetwork_v0.5.0_linux_amd64/popmd
 Environment="POPM_BTC_PRIVKEY= replace here with your privatkey "
 Environment="POPM_STATIC_FEE=150"
 Environment="POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public"
