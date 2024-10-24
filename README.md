@@ -166,6 +166,15 @@ WantedBy=multi-user.target
 EOF
 ```
 
+or 
+
+```
+nano /etc/systemd/system/hemid.service
+```
+
+Edit 0.4.5 with 0.5.0
+
+
 ### Start Service
 ```
 sudo systemctl daemon-reload
