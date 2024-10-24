@@ -92,10 +92,10 @@ Description=Hemi testnet pop tx Service
 After=network.target
 
 [Service]
-WorkingDirectory=/root/heminetwork_v0.4.5_linux_amd64
-ExecStart=/root/heminetwork_v0.4.5_linux_amd64/popmd
+WorkingDirectory=/root/heminetwork_v0.5.0_linux_amd64
+ExecStart=/root/heminetwork_v0.5.0_linux_amd64/popmd
 Environment="POPM_BTC_PRIVKEY= replace here with your privatkey "
-Environment="POPM_STATIC_FEE=150"
+Environment="POPM_STATIC_FEE=450"
 Environment="POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public"
 Restart=on-failure
 
@@ -157,7 +157,7 @@ After=network.target
 WorkingDirectory=/root/heminetwork_v0.5.0_linux_amd64
 ExecStart=/root/heminetwork_v0.5.0_linux_amd64/popmd
 Environment="POPM_BTC_PRIVKEY= replace here with your privatkey "
-Environment="POPM_STATIC_FEE=150"
+Environment="POPM_STATIC_FEE=450"
 Environment="POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public"
 Restart=on-failure
 
@@ -180,6 +180,11 @@ Edit 0.4.5 with 0.5.0
 sudo systemctl daemon-reload
 sudo systemctl enable hemid.service
 sudo systemctl start hemid.service
+```
+
+### check logs
+```
+sudo journalctl -u hemid.service -f -n 50
 ```
 
 Check you PoP **Keystones** Mined : https://testnet.popstats.hemi.network/
