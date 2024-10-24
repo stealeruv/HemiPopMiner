@@ -134,19 +134,6 @@ sudo apt-get update
 sudo apt-get install -y jq
 ```
 
-### Check the architecture of your VPS using the following command:
-```
-uname -m
-```
-This will return the architecture type, such as:
-
-**x86_64** for 64-bit Intel/AMD systems
-
-**arm64** for 64-bit ARM systems
-
-
-x86_64 : This would indicate that your VPS is running on x86_64 architecture. So chose **x86_64** cmd.
-
 ### Download the Binary
 
 ```
